@@ -1,0 +1,53 @@
+	body{
+			width:70%;
+			margin:2% auto;		
+	}
+	header{
+			display:inline-block;			
+		
+	}
+    .main{
+		border-top:1px solid black;
+		margin:5px;
+		
+	}
+	nav{
+		display:inline-block;
+		position: absolute;
+		right:15%;
+	}
+
+	nav a:link{
+		font:bold 18px tahoma;
+		text-decoration:none;
+		color:black;
+		padding:2px 5px;
+		
+	}
+	nav a:visited{
+		color:green;
+		padding:2px 5px;
+	}
+	nav a:hover{
+		color:red;
+		background-color:black;
+		border:1px solid black;
+		padding:2px 5px;
+	}
+	
+	nav a:active{
+		color:black;
+		background-color:yellow;
+		padding:2px 5px;
+	}
+	footer{
+		border-top:1px solid black;
+		clear:both;
+		margin:15px;
+		
+	}
+	
+	footer h3{
+		text-align:center;
+		
+	}
